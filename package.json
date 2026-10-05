@@ -1,0 +1,14 @@
+{
+    "name": "smart-home-cli",
+    "version": "1.0.0",
+    "description": "Simulador de Automação Residencial com Design Patterns",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    }
+}
